@@ -8,7 +8,6 @@ export default function AppSeguro() {
         </header>
 
         <main className="bg-white md:w-1/3 lg:w-2/4 mx-auto shadow rounded-lg p-10">
-                <p>Contenido Principal</p>
                 <Formulario />
         </main>
     </>

@@ -11,3 +11,8 @@ const YEARMAX = new Date().getFullYear();
 //Entonces los 20 elementos seran las fechas.
 
 export const YEARS = Array.from(new Array(20), (valor, index) => (YEARMAX - index))
+
+export const PLANES = [
+    {id: 1 , nombre: 'Basico'},
+    {id: 2 , nombre: 'Completo'},
+]
