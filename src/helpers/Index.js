@@ -31,3 +31,9 @@ export function calcularMarca(marca){
 export function calcularPlan(plan){
     return plan === '1' ? 1.2 : 1.5
 }
+
+
+
+ export function formatearDinero(resultado){
+    return resultado.toLocaleString('en-US', { style: 'currency', currency: 'USD' }); 
+ } 
